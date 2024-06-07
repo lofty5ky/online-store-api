@@ -20,7 +20,7 @@ import java.util.List;
 public class OrderDTO implements Serializable {
     @JsonProperty("user_id")
     @Min(value = 1, message = "User's id must be > 0")
-    private Long userID;
+    private Long userId;
 
     @JsonProperty("fullname")
     private String fullName;

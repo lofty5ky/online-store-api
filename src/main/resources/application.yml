@@ -16,7 +16,7 @@ spring:
     open-in-view: off
 
   application:
-    name: online-store
+    name: online-store-api
 
   servlet:
     multipart:
@@ -25,3 +25,7 @@ spring:
 
 api:
   prefix: api/v1
+
+jwt:
+  expiration: 604800 # 1 week
+  secret-key: Pu4XEgOUeq7YxMkj0isj/2bwxGXo3Gjw3+8R7I8I7vj5UjQimKolYFRvEhwpKkD9
